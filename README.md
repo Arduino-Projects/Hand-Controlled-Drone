@@ -2,7 +2,7 @@
 A drone built on a custom-made PCB that follows your hand orientation!
 
 
-# What does it do
+# What Does it Do
 - There is a hidden custom-made PCB inside a glove that the pilot wears
 - The pilot then simply tilts their hand in the intended direction of flight
 - Using an onboard accelerometer, and a flex sensor, an ATMEGA328P chip is able to identify its orientation, and the requested throttle level
@@ -12,13 +12,13 @@ A drone built on a custom-made PCB that follows your hand orientation!
 - The PWM signals are then sent to ESC's, which draw current from the battery and spin the motors up!
 
 
-# How was it built
+# How Was it Built
 - The PCB's were made using the EasyEDA PCB editor, and ordered through JLCPCB
 - The PCB Components were ordered through LCSC Electronics
 - Everything was hand-soldered, and programmed manually
 
 
-# Recent update
+# Recent Updates
 - It was flying perfectly in my school's field at a few hundred feet of height
 - Then, when coming in for landing, I may have descended too fast, and landed harshly on one of the arms
 - The arm broke off the drone, and it's currently not in flying condition
