@@ -8,7 +8,7 @@ A drone built on a custom-made PCB that follows your hand orientation!
 - Using an onboard accelerometer, and a flex sensor, an ATMEGA328P chip is able to identify its orientation, and the requested throttle level
 - Using an onboard high power radio module, the glove sends radio signals to the drone
 - The drone then reads in the hand orientation coordinates through a radio on the drone's PCB
-- It then converts those values into a PID loop, which processes the results, and outputs the appropriate RPM for each motor in a PWM signal
+- It then feeds those values into a PID loop, which processes the results, and outputs the appropriate RPM for each motor in a PWM signal
 - The PWM signals are then sent to ESC's, which draw current from the battery and spin the motors up!
 
 
